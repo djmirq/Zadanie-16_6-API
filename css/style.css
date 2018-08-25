@@ -1,0 +1,19 @@
+table { padding-bottom: 20px; }
+
+table div { height: 40px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+
+table .col1 { max-width: 60px; }
+
+table .col1, table .col2 { font-size: 12px; }
+
+table .col1 { background-color: #ffae00; }
+
+table .col2 { min-width: 250px; background-color: #fde03d; }
+
+table .colspan td { background-color: blue; color: white; min-height: 10px; height: 10px; font-size: 10px; }
+
+table .firstRow td { background-color: white !important; }
+
+table .firstRow td:nth-of-type(2) { font-size: 30px !important; color: #3f3ff5; }
+
+/*# sourceMappingURL=style.css.map */

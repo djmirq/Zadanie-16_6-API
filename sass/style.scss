@@ -1,0 +1,39 @@
+table {
+  padding-bottom: 20px;
+  div {
+    height: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .col1 {
+    max-width: 60px;
+  }
+  .col1,
+  .col2 {
+    font-size: 12px;
+  }
+  .col1 {
+    background-color: rgb(255, 174, 0);
+  }
+  .col2 {
+    min-width: 250px;
+    background-color: rgb(253, 224, 61);
+  }
+  .colspan {
+    td {
+      background-color: blue;
+      color: white;
+      min-height: 10px;
+      height: 10px;
+      font-size: 10px;
+    }
+  }
+  .firstRow {
+    td {
+      background-color: white !important;
+    }
+    td:nth-of-type(2) {
+      font-size: 30px !important;
+      color: rgb(63, 63, 245);
+    }
+  }
+}
